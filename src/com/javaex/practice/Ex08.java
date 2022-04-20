@@ -17,12 +17,12 @@ public class Ex08 {
 				} else if (num[i] != num[j]) {
 					System.out.println(i + "=i값 다를때");
 					System.out.println(j + "=j값 다를때");
+					System.out.println(num[i] + "\t");		// 마지막 값이 안 나오는 것을 해결해야함
 					break;
 
 				}
 
 			}
-			System.out.print(num[i] + "\t");			//	마지막 값이 같은 거를 해결 못 함
 			// System.out.println(num[i]+"=num[i]값");
 			// System.out.println("");
 
