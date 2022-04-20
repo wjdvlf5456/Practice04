@@ -23,7 +23,7 @@ public class Ex08 {
 		for (int i = 0; i < num.length; i++) {
 
 			for (int j = 1; j <= 45; j++) {
-				if (num[i] != num[i + 1] && num[i] == j && i < num.length) {		//	num[i+1]에서 오
+				if (num[i] != num[i + 1] && num[i] == j && i < num.length) {		//	num[i+1]에서 오류
 					num[i] = j;
 					System.out.println("skdjflskdjfslkdjflksjflsfsf");
 				}else{	
