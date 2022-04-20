@@ -14,7 +14,7 @@ public class Ex01 {
 
 		int result = 0;
 
-		for (int i = 0; i <= intArray.length; i++) {
+		for (int i = 0; i < intArray.length; i++) {
 			result = result + intArray[i];
 
 		}
