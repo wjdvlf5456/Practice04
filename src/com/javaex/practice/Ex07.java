@@ -1,11 +1,15 @@
 package com.javaex.practice;
 
+import java.util.Scanner;
+
 public class Ex07 {
-	
+
 	public static void main(String[] args) {
-		
+
+		Scanner sc = new Scanner(System.in);
+
 		int[] wonArray = new int[10];
-		
+
 		wonArray[0] = 50000;
 		wonArray[1] = 10000;
 		wonArray[2] = 5000;
@@ -17,15 +21,22 @@ public class Ex07 {
 		wonArray[8] = 5;
 		wonArray[9] = 1;
 		
+		System.out.print("금액: ");
+		int num = sc.nextInt();
+		int sum = num;
+
 		for (int i = 0; i < wonArray.length; i++) {
-			
-			if (wonArray[i]/wonArray[i]>0) {
-				System.out.println(wonArray+"원: "+wonArray[i]/wonArray[i]+"개");
-				
+
+			if (num / wonArray[i] > 0) {
+				System.out.print(wonArray[i] + "원: ");
+				System.out.print(sum/ wonArray[i] + "개");
+				sum = sum-wonArray[i]*(sum/wonArray[i]);
+
 			}
-			
+			System.out.println("");
+
 		}
-		
+		sc.close();
 	}
 
 }
