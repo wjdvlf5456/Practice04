@@ -12,7 +12,7 @@ public class Ex08 {
 			for (int j = 0; j < i; j++) {
 				if (num[i] == num[j]) {
 					--i;
-					break;					//중복체크
+					break;					// 중복체크
 				}
 
 			}
